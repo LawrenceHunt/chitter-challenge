@@ -29,7 +29,7 @@
           <% if !peep.responses.empty? %>
           <% peep.responses.each do |response| %>
           <li><%=response.user.name%>
-            <%=response.timestamp.strftime("%H:%M, %A %d %B %Y")%>
+            <%=response.timestamp.strftime("%H:%M, %A %d %B %Y")%></br>
             <%=response.text%></li>
             <% end %>
             <% end %>
